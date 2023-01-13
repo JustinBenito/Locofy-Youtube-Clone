@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #f8f8f8;
+  --color-gray-200: #d3d3d3;
+  --color-gray-300: #606060;
+  --color-gray-400: #0f0f0f;
+  --color-gray-500: rgba(0, 0, 0, 0.8);
+  --color-gray-600: rgba(0, 0, 0, 0.1);
+  --color-gray-700: rgba(0, 0, 0, 0.05);
+  --color-indigo: #065fd4;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-2xs: 1px;
+  --gap-xs: 4px;
+  --gap-sm: 6px;
+  --gap-md: 8px;
+  --gap-lg: 12px;
+  --gap-xl: 16px;
+  --gap-2xl: 32px;
+
+  /* Paddings */
+  --padding-3xs: 2px;
+  --padding-2xs: 8px;
+  --padding-xs: 10px;
+  --padding-sm: 12px;
+  --padding-md: 16px;
+  --padding-lg: 19px;
+  --padding-xl: 20px;
+  --padding-2xl: 24px;
+
+  /* border radiuses */
+  --br-3xs: 4px;
+  --br-2xs: 8px;
+  --br-xs: 10px;
+  --br-sm: 12px;
+  --br-md: 18px;
+  --br-lg: 20px;
+  --br-xl: 40px;
+  --br-2xl: 100px;
+}

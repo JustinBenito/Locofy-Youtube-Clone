@@ -1,0 +1,1139 @@
+.svgIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.ytIconButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.ytdTopbarLogoRendererIcon {
+  position: relative;
+  width: 129px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.divcontainerInput,
+.divstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divstart {
+  align-items: center;
+  gap: var(--gap-0);
+}
+.divcontainerInput {
+  border: 1px solid var(--color-gray-200);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  box-shadow: 0 1px 2px #eee inset;
+  box-sizing: border-box;
+  padding: var(--padding-xs) var(--padding-md) var(--padding-xs)
+    var(--padding-lg);
+  align-items: flex-start;
+  padding-top: var(--padding-sm);
+}
+.svgIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.searchButton,
+.ytdSearchboxDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: var(--color-gray-100);
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  box-sizing: border-box;
+}
+.ytdSearchboxDiv {
+  flex: 1;
+  gap: var(--gap-0);
+}
+.divvoiceSearchButtonIcon {
+  position: relative;
+  border-radius: var(--br-2xl);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.divcenter {
+  width: 652px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.vectorIcon {
+  position: absolute;
+  height: 74.5%;
+  width: 74.46%;
+  top: 12.5%;
+  right: 13.04%;
+  bottom: 13%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.svgButton,
+.ytIconButton1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.svgButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.ytIconButton1 {
+  width: 40px;
+  height: 40px;
+}
+.svgIcon2 {
+  position: absolute;
+  width: 23.5%;
+  top: calc(50% - 12px);
+  right: 66.7%;
+  left: 9.79%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.signInDiv {
+  position: absolute;
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-indigo);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.aDiv,
+.div {
+  position: absolute;
+  height: 36px;
+}
+.div {
+  top: calc(50% - 18px);
+  left: calc(50% - 11.05px);
+  width: 46.11px;
+  overflow: hidden;
+}
+.aDiv {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.ytdButtonRendererDiv {
+  position: relative;
+  width: 102.11px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.divbuttons,
+.ytdMastheadNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divbuttons {
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.ytdMastheadNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.svgIcon3 {
+  position: absolute;
+  width: 11.76%;
+  top: calc(50% - 12px);
+  right: 82.35%;
+  left: 5.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.homeDiv {
+  position: absolute;
+  width: 28.66%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytFormattedStringDiv {
+  position: absolute;
+  width: 64.71%;
+  top: calc(50% - 10px);
+  right: 5.88%;
+  left: 29.41%;
+  height: 20px;
+  overflow: hidden;
+}
+.tpYtPaperItemDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 20px);
+  right: 0;
+  left: 0;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-700);
+  height: 40px;
+}
+.shortsDiv {
+  position: absolute;
+  width: 31.12%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv1 {
+  position: absolute;
+  width: 85%;
+  top: 52px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.subscriptionsDiv {
+  position: absolute;
+  width: 64.78%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv2 {
+  position: absolute;
+  width: 85%;
+  top: 92px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems {
+  position: relative;
+  width: 240px;
+  height: 145px;
+  flex-shrink: 0;
+}
+.libraryDiv {
+  position: absolute;
+  width: 32.24%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv3 {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.historyDiv {
+  position: absolute;
+  width: 33.88%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.divitems1 {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.signInDiv1,
+.signInToLikeVideosCommen {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 157.12px;
+  height: 36px;
+}
+.signInDiv1 {
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  height: 16px;
+}
+.ytdButtonRendererDiv1 {
+  position: absolute;
+  top: calc(50% + 7.5px);
+  left: 32px;
+  width: 102.11px;
+  height: 36px;
+  color: var(--color-indigo);
+}
+.ytdGuideSigninPromoRendereDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.exploreDiv,
+.trendingDiv {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.exploreDiv {
+  width: 22.06%;
+  top: 19px;
+  left: 10%;
+  line-height: 22px;
+  height: 19px;
+}
+.trendingDiv {
+  width: 41.42%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv5 {
+  position: absolute;
+  width: 94.44%;
+  top: 0;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.musicDiv {
+  position: absolute;
+  width: 28.86%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv6 {
+  position: absolute;
+  width: 94.44%;
+  top: 40px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.moviesTV {
+  position: absolute;
+  width: 58.98%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv7 {
+  position: absolute;
+  width: 94.44%;
+  top: 80px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.liveDiv {
+  position: absolute;
+  width: 19.13%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv8 {
+  position: absolute;
+  width: 94.44%;
+  top: 120px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.gamingDiv {
+  position: absolute;
+  width: 36.82%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv9 {
+  position: absolute;
+  width: 94.44%;
+  top: 160px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.newsDiv {
+  position: absolute;
+  width: 26.77%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv10 {
+  position: absolute;
+  width: 94.44%;
+  top: 200px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.sportsDiv {
+  position: absolute;
+  width: 31.22%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv11 {
+  position: absolute;
+  width: 94.44%;
+  top: 240px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.learningDiv {
+  position: absolute;
+  width: 41.07%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv12 {
+  position: absolute;
+  width: 94.44%;
+  top: 280px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.fashionBeauty {
+  position: absolute;
+  width: 81.57%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv13 {
+  position: absolute;
+  width: 94.44%;
+  top: 320px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.podcastsDiv {
+  position: absolute;
+  width: 44.53%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv14 {
+  position: absolute;
+  width: 94.44%;
+  top: 360px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems2 {
+  position: absolute;
+  width: 90%;
+  top: 44px;
+  right: 5%;
+  left: 5%;
+  height: 400px;
+  font-size: var(--font-size-base);
+}
+.ytdGuideSectionRendererDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 457px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.browseChannelsDiv {
+  position: absolute;
+  width: 80.5%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.tpYtPaperItemDiv15 {
+  position: absolute;
+  width: 85%;
+  top: calc(50% - 19px);
+  right: 10%;
+  left: 5%;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv15 {
+  position: relative;
+  border-radius: var(--br-xs);
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.divsections {
+  width: 240px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.allDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 16.73px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv,
+.ytFormattedStringDiv16 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 16.53px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv {
+  top: 12px;
+  left: 24px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 40.53px;
+  height: 32px;
+  color: var(--color-white);
+}
+.liveDiv1 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 26.04px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv1,
+.ytFormattedStringDiv17 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 25.84px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv1 {
+  top: 12px;
+  left: 76.53px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 49.84px;
+  height: 32px;
+}
+.gamingDiv1 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 49.81px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv2,
+.ytFormattedStringDiv18 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 49.61px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv2 {
+  top: 12px;
+  left: 138.38px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 73.61px;
+  height: 32px;
+}
+.laughterDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 56.97px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv3,
+.ytFormattedStringDiv19 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 56.77px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv3 {
+  top: 12px;
+  left: 223.98px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 80.77px;
+  height: 32px;
+}
+.gadgetsDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 53.72px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv4,
+.ytFormattedStringDiv20 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 53.52px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv4 {
+  top: 12px;
+  left: 316.75px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 77.52px;
+  height: 32px;
+}
+.toolsDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 35.47px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv5,
+.ytFormattedStringDiv21 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 35.27px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv5 {
+  top: 12px;
+  left: 406.27px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 59.27px;
+  height: 32px;
+}
+.quarterbacksDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 86.48px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv6,
+.ytFormattedStringDiv22 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 86.28px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv6 {
+  top: 12px;
+  left: 477.53px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 110.28px;
+  height: 32px;
+}
+.comedyDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 52.72px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv7,
+.ytFormattedStringDiv23 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 52.52px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv7 {
+  top: 12px;
+  left: 599.81px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 76.52px;
+  height: 32px;
+}
+.charactersDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv8,
+.ytFormattedStringDiv24 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 69.8px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv8 {
+  top: 12px;
+  left: 688.33px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 93.8px;
+  height: 32px;
+}
+.backgroundMusicDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 119.2px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv9,
+.ytFormattedStringDiv25 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 119px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv9 {
+  top: 12px;
+  left: 794.13px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 143px;
+  height: 32px;
+}
+.drivingDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 44.68px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv10,
+.ytFormattedStringDiv26 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 44.48px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv10 {
+  top: 12px;
+  left: 949.13px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 68.48px;
+  height: 32px;
+}
+.gameShowsDiv {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 83.17px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv11,
+.ytFormattedStringDiv27 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 82.97px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv11 {
+  top: 12px;
+  left: 1029.61px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 106.97px;
+  height: 32px;
+}
+.historyDiv1 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 46.11px;
+  height: 16px;
+}
+.ytChipCloudChipRendererDiv12,
+.ytFormattedStringDiv28 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  width: 45.91px;
+  height: 20px;
+  overflow: hidden;
+}
+.ytChipCloudChipRendererDiv12 {
+  top: 12px;
+  left: 1148.58px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 69.91px;
+  height: 32px;
+}
+.ironSelectorDiv,
+.ytdThumbnailIcon {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.ironSelectorDiv {
+  height: 56px;
+  overflow-x: auto;
+}
+.ytdThumbnailIcon {
+  border-radius: var(--br-sm);
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  object-fit: cover;
+}
+.zMNvfKkJr08efLtSQQM53Qn7X3gYIcon {
+  position: relative;
+  border-radius: var(--br-md);
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cOOLESTNewGadgetsAndInvent {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.tecHOWDiv {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.divmeta,
+.divmetadata,
+.divmetadataLine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divmetadataLine {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.divmeta,
+.divmetadata {
+  flex-direction: column;
+}
+.divmetadata {
+  align-self: stretch;
+  gap: var(--gap-0);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.divmeta {
+  flex: 1;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.ytdDescriptionDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.divcontents,
+.ytdCardDiv,
+.ytdDescriptionDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ytdCardDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-0);
+}
+.divcontents {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) var(--padding-md);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.ytdRichGridRendererDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.homepageDiv,
+.ytdBodyDiv,
+.ytdRichGridRendererDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ytdBodyDiv {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-0);
+}
+.homepageDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1084px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .divcenter {
+    max-width: 50%;
+  }
+  .divsections {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .divcontainerInput {
+    font-size: var(--font-size-lg);
+    padding-top: var(--padding-sm);
+  }
+  .ytdCardDiv {
+    min-width: 305px;
+  }
+  .divcontents {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 650px) {
+  .divcenter {
+    display: none;
+  }
+  .svgButton {
+    display: flex;
+  }
+}

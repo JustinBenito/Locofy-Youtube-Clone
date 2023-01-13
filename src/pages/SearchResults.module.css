@@ -1,0 +1,853 @@
+.svgIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.ytIconButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.ytdTopbarLogoRendererIcon {
+  position: relative;
+  width: 129px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.divcontainerInput,
+.divstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divstart {
+  align-items: center;
+  gap: var(--gap-0);
+}
+.divcontainerInput {
+  border: 1px solid var(--color-gray-200);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  box-shadow: 0 1px 2px #eee inset;
+  box-sizing: border-box;
+  padding: var(--padding-xs) var(--padding-md) var(--padding-xs)
+    var(--padding-lg);
+  align-items: flex-start;
+  padding-top: var(--padding-sm);
+}
+.svgIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.searchButton,
+.ytdSearchboxDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: var(--color-gray-100);
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  box-sizing: border-box;
+}
+.ytdSearchboxDiv {
+  flex: 1;
+  gap: var(--gap-0);
+}
+.divvoiceSearchButtonIcon {
+  position: relative;
+  border-radius: var(--br-2xl);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.divcenter {
+  width: 652px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.vectorIcon {
+  position: absolute;
+  height: 74.5%;
+  width: 74.46%;
+  top: 12.5%;
+  right: 13.04%;
+  bottom: 13%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.svgButton,
+.ytIconButton1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.svgButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.ytIconButton1 {
+  width: 40px;
+  height: 40px;
+}
+.svgIcon2 {
+  position: absolute;
+  width: 23.5%;
+  top: calc(50% - 12px);
+  right: 66.7%;
+  left: 9.79%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.signInDiv {
+  position: absolute;
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-indigo);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.aDiv,
+.div {
+  position: absolute;
+  height: 36px;
+}
+.div {
+  top: calc(50% - 18px);
+  left: calc(50% - 11.05px);
+  width: 46.11px;
+  overflow: hidden;
+}
+.aDiv {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.ytdButtonRendererDiv {
+  position: relative;
+  width: 102.11px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.divbuttons,
+.ytdMastheadNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divbuttons {
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.ytdMastheadNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.svgIcon3 {
+  position: absolute;
+  width: 11.76%;
+  top: calc(50% - 12px);
+  right: 82.35%;
+  left: 5.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.homeDiv {
+  position: absolute;
+  width: 28.66%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytFormattedStringDiv {
+  position: absolute;
+  width: 64.71%;
+  top: calc(50% - 10px);
+  right: 5.88%;
+  left: 29.41%;
+  height: 20px;
+  overflow: hidden;
+}
+.tpYtPaperItemDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 20px);
+  right: 0;
+  left: 0;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-700);
+  height: 40px;
+}
+.shortsDiv {
+  position: absolute;
+  width: 31.12%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv1 {
+  position: absolute;
+  width: 85%;
+  top: 52px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.subscriptionsDiv {
+  position: absolute;
+  width: 64.78%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv2 {
+  position: absolute;
+  width: 85%;
+  top: 92px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems {
+  position: relative;
+  width: 240px;
+  height: 145px;
+  flex-shrink: 0;
+}
+.libraryDiv {
+  position: absolute;
+  width: 32.24%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv3 {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.historyDiv {
+  position: absolute;
+  width: 33.88%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.divitems1 {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.signInDiv1,
+.signInToLikeVideosCommen {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 157.12px;
+  height: 36px;
+}
+.signInDiv1 {
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  height: 16px;
+}
+.ytdButtonRendererDiv1 {
+  position: absolute;
+  top: calc(50% + 7.5px);
+  left: 32px;
+  width: 102.11px;
+  height: 36px;
+  color: var(--color-indigo);
+}
+.ytdGuideSigninPromoRendereDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.exploreDiv,
+.trendingDiv {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.exploreDiv {
+  width: 22.06%;
+  top: 19px;
+  left: 10%;
+  line-height: 22px;
+  height: 19px;
+}
+.trendingDiv {
+  width: 41.42%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv5 {
+  position: absolute;
+  width: 94.44%;
+  top: 0;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.musicDiv {
+  position: absolute;
+  width: 28.86%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv6 {
+  position: absolute;
+  width: 94.44%;
+  top: 40px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.moviesTV {
+  position: absolute;
+  width: 58.98%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv7 {
+  position: absolute;
+  width: 94.44%;
+  top: 80px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.liveDiv {
+  position: absolute;
+  width: 19.13%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv8 {
+  position: absolute;
+  width: 94.44%;
+  top: 120px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.gamingDiv {
+  position: absolute;
+  width: 36.82%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv9 {
+  position: absolute;
+  width: 94.44%;
+  top: 160px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.newsDiv {
+  position: absolute;
+  width: 26.77%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv10 {
+  position: absolute;
+  width: 94.44%;
+  top: 200px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.sportsDiv {
+  position: absolute;
+  width: 31.22%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv11 {
+  position: absolute;
+  width: 94.44%;
+  top: 240px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.learningDiv {
+  position: absolute;
+  width: 41.07%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv12 {
+  position: absolute;
+  width: 94.44%;
+  top: 280px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.fashionBeauty {
+  position: absolute;
+  width: 81.57%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv13 {
+  position: absolute;
+  width: 94.44%;
+  top: 320px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.podcastsDiv {
+  position: absolute;
+  width: 44.53%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv14 {
+  position: absolute;
+  width: 94.44%;
+  top: 360px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems2 {
+  position: absolute;
+  width: 90%;
+  top: 44px;
+  right: 5%;
+  left: 5%;
+  height: 400px;
+  font-size: var(--font-size-base);
+}
+.ytdGuideSectionRendererDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 457px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.browseChannelsDiv {
+  position: absolute;
+  width: 80.5%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.tpYtPaperItemDiv15 {
+  position: absolute;
+  width: 85%;
+  top: calc(50% - 19px);
+  right: 10%;
+  left: 5%;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv15 {
+  position: relative;
+  border-radius: var(--br-xs);
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.divsections {
+  width: 240px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.svgIcon20 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 37.58px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.filtersDiv {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 19.58px);
+  line-height: 36px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39.36px;
+  height: 16px;
+}
+.div2,
+.searchFiltersDiv {
+  position: absolute;
+  height: 36px;
+}
+.div2 {
+  top: calc(50% - 18px);
+  left: calc(50% - 7.58px);
+  width: 39.16px;
+  overflow: hidden;
+}
+.searchFiltersDiv {
+  width: 111.74%;
+  top: 0;
+  right: 0;
+  left: -11.74%;
+  border-radius: var(--br-md);
+}
+.ytdToggleButtonRendererDiv {
+  position: relative;
+  width: 85.16px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.divfilterMenuborderIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.ytdSearchSubMenuRendererDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.athumbnailIcon {
+  position: relative;
+  border-radius: var(--br-sm);
+  width: 360px;
+  height: 201.98px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.figmaDesignToLiveWebsiteW {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+}
+.kViewsDiv {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.divmeta,
+.divmetadataLine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divmetadataLine {
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.divmeta {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-0);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+}
+.gqvpuAg9wAYV3eMkh5UtoQkdvHiMGLIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.ytImgShadowDiv {
+  position: relative;
+  border-radius: var(--br-sm);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.divchannelInfo {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.locofySpan {
+  font-weight: 500;
+}
+.inThisVideoYoullBeLearni {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.div3,
+.ytdVideoRendererDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div3 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-0);
+}
+.ytdVideoRendererDiv {
+  flex-direction: row;
+}
+.frameDiv,
+.ytdVideoRendererDiv,
+.ytdVideoRendererDiv3 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.ytdVideoRendererDiv3 {
+  height: 240px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.divContent,
+.frameDiv,
+.searchResultsDiv,
+.ytdSectionListRendererDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ytdSectionListRendererDiv {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  gap: 25px;
+  text-align: center;
+}
+.divContent,
+.searchResultsDiv {
+  gap: var(--gap-0);
+}
+.divContent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.searchResultsDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .divcenter {
+    max-width: 50%;
+  }
+  .divsections {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .divcontainerInput {
+    font-size: var(--font-size-lg);
+    padding-top: var(--padding-sm);
+  }
+  .athumbnailIcon {
+    max-width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .divcenter {
+    display: none;
+  }
+  .svgButton {
+    display: flex;
+  }
+}

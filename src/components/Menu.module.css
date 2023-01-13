@@ -1,0 +1,486 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.svgIcon {
+  position: absolute;
+  width: 11.76%;
+  top: calc(50% - 12px);
+  right: 82.35%;
+  left: 5.88%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.homeDiv {
+  position: absolute;
+  width: 28.66%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytFormattedStringDiv {
+  position: absolute;
+  width: 64.71%;
+  top: calc(50% - 10px);
+  right: 5.88%;
+  left: 29.41%;
+  height: 20px;
+  overflow: hidden;
+}
+.tpYtPaperItemDiv {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 20px);
+  right: 0;
+  left: 0;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-700);
+  height: 40px;
+}
+.shortsDiv {
+  position: absolute;
+  width: 31.12%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv1 {
+  position: absolute;
+  width: 85%;
+  top: 52px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.subscriptionsDiv {
+  position: absolute;
+  width: 64.78%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv2 {
+  position: absolute;
+  width: 85%;
+  top: 92px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems {
+  position: relative;
+  width: 240px;
+  height: 145px;
+  flex-shrink: 0;
+}
+.libraryDiv {
+  position: absolute;
+  width: 32.24%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv3 {
+  position: absolute;
+  width: 85%;
+  top: 12px;
+  right: 10%;
+  left: 5%;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.historyDiv {
+  position: absolute;
+  width: 33.88%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.divitems1 {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.signInToLikeVideosCommen {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 157.12px;
+  height: 36px;
+}
+.svgIcon5 {
+  position: absolute;
+  width: 23.5%;
+  top: calc(50% - 12px);
+  right: 66.7%;
+  left: 9.79%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.signInDiv {
+  position: absolute;
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.div {
+  top: calc(50% - 18px);
+  left: calc(50% - 11.05px);
+  width: 46.11px;
+  overflow: hidden;
+}
+.aDiv,
+.div,
+.ytdButtonRendererDiv {
+  position: absolute;
+  height: 36px;
+}
+.aDiv {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.ytdButtonRendererDiv {
+  top: calc(50% + 7.5px);
+  left: 32px;
+  width: 102.11px;
+  color: var(--color-indigo);
+}
+.ytdGuideSigninPromoRendereDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.exploreDiv,
+.trendingDiv {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.exploreDiv {
+  width: 22.06%;
+  top: 19px;
+  left: 10%;
+  line-height: 22px;
+  height: 19px;
+}
+.trendingDiv {
+  width: 41.42%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv5 {
+  position: absolute;
+  width: 94.44%;
+  top: 0;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.musicDiv {
+  position: absolute;
+  width: 28.86%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv6 {
+  position: absolute;
+  width: 94.44%;
+  top: 40px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.moviesTV {
+  position: absolute;
+  width: 58.98%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv7 {
+  position: absolute;
+  width: 94.44%;
+  top: 80px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.liveDiv {
+  position: absolute;
+  width: 19.13%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv8 {
+  position: absolute;
+  width: 94.44%;
+  top: 120px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.gamingDiv {
+  position: absolute;
+  width: 36.82%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv9 {
+  position: absolute;
+  width: 94.44%;
+  top: 160px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.newsDiv {
+  position: absolute;
+  width: 26.77%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv10 {
+  position: absolute;
+  width: 94.44%;
+  top: 200px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.sportsDiv {
+  position: absolute;
+  width: 31.22%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv11 {
+  position: absolute;
+  width: 94.44%;
+  top: 240px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.learningDiv {
+  position: absolute;
+  width: 41.07%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv12 {
+  position: absolute;
+  width: 94.44%;
+  top: 280px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.fashionBeauty {
+  position: absolute;
+  width: 81.57%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv13 {
+  position: absolute;
+  width: 94.44%;
+  top: 320px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.podcastsDiv {
+  position: absolute;
+  width: 44.53%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.ytdGuideEntryRendererDiv14 {
+  position: absolute;
+  width: 94.44%;
+  top: 360px;
+  right: 5.56%;
+  left: 0;
+  border-radius: var(--br-xs);
+  height: 40px;
+}
+.divitems2 {
+  position: absolute;
+  width: 90%;
+  top: 44px;
+  right: 5%;
+  left: 5%;
+  height: 400px;
+  font-size: var(--font-size-base);
+}
+.ytdGuideSectionRendererDiv {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 457px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.browseChannelsDiv {
+  position: absolute;
+  width: 80.5%;
+  top: calc(50% - 8px);
+  left: 0;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.tpYtPaperItemDiv15 {
+  position: absolute;
+  width: 85%;
+  top: calc(50% - 19px);
+  right: 10%;
+  left: 5%;
+  height: 40px;
+}
+.ytdGuideEntryRendererDiv15 {
+  position: relative;
+  border-radius: var(--br-xs);
+  border-top: 1px solid var(--color-gray-600);
+  border-right: 0 solid var(--color-gray-600);
+  border-bottom: 0 solid var(--color-gray-600);
+  border-left: 0 solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 240px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.menuDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 240px;
+  height: 1084px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  opacity: 0;
+  top: 56px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}
+.menuDiv.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}

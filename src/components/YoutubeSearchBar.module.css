@@ -1,0 +1,212 @@
+.svgIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.ytIconButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.ytdTopbarLogoRendererIcon {
+  position: relative;
+  width: 129px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.divcontainerInput,
+.divstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.divstart {
+  align-items: center;
+  gap: var(--gap-0);
+}
+.divcontainerInput {
+  border: 1px solid var(--color-gray-200);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  box-shadow: 0 1px 2px #eee inset;
+  box-sizing: border-box;
+  padding: var(--padding-xs) var(--padding-md) var(--padding-xs)
+    var(--padding-lg);
+  align-items: flex-start;
+  padding-top: var(--padding-sm);
+}
+.svgIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.searchButton,
+.ytdSearchboxDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: var(--color-gray-100);
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  box-sizing: border-box;
+}
+.ytdSearchboxDiv {
+  flex: 1;
+  gap: var(--gap-0);
+}
+.divvoiceSearchButtonIcon {
+  position: relative;
+  border-radius: var(--br-2xl);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.divcenter {
+  width: 652px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.vectorIcon {
+  position: absolute;
+  height: 74.5%;
+  width: 74.46%;
+  top: 12.5%;
+  right: 13.04%;
+  bottom: 13%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.svgButton,
+.ytIconButton1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.svgButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.ytIconButton1 {
+  width: 40px;
+  height: 40px;
+}
+.svgIcon2 {
+  position: absolute;
+  width: 23.5%;
+  top: calc(50% - 12px);
+  right: 66.7%;
+  left: 9.79%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 24px;
+}
+.signInDiv {
+  position: absolute;
+  width: 100.43%;
+  top: 10px;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-indigo);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+.aDiv,
+.div {
+  position: absolute;
+  height: 36px;
+}
+.div {
+  top: calc(50% - 18px);
+  left: calc(50% - 11.05px);
+  width: 46.11px;
+  overflow: hidden;
+}
+.aDiv {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.ytdButtonRendererDiv {
+  position: relative;
+  width: 102.11px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.divbuttons,
+.ytdMastheadNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.divbuttons {
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.ytdMastheadNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: 0 var(--padding-md);
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+  .divcenter {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .divcontainerInput {
+    font-size: var(--font-size-lg);
+    padding-top: var(--padding-sm);
+  }
+}
+@media screen and (max-width: 650px) {
+  .divcenter {
+    display: none;
+  }
+  .svgButton {
+    display: flex;
+  }
+}
